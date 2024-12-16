@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import EstiloGlobal from './Componentes/EstiloGlobal';
 import Cabecalho from './Componentes/Cabecalho';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';

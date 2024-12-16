@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 import linkedIn from "../../assets/Icones/linkedIn.png";
 import github from "../../assets/Icones/github.png";

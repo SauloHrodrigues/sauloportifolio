@@ -1,0 +1,24 @@
+.a {
+    background-color: #BEE7F9;
+    width: 10px;
+    height: 55px;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+
+    font-size: 18px;
+    font-family: TTSupermolot-Bold;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2%;
+    color: #201F53;
+    top: 20px;
+    left: 37px;
+    margin-right: 10px;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding: 8px 16px;
+    background-color: transparent;
+
+}

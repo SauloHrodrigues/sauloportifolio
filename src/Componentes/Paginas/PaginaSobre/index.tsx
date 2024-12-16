@@ -2,7 +2,7 @@ import styled from "styled-components";
 import FotoSaulo from "../../../assets/FotoSaulo.jpeg";
 import ListSkills from "../../SoftSkills";
 
-const SaldacaoInicial = styled.text`
+const SaldacaoInicial = styled.h1`
     font-family: 'TTSupermolot-Bold';
     font-size: 36px;
     font-weight: 400;
@@ -14,7 +14,7 @@ const SaldacaoInicial = styled.text`
     left: 124px;
 `
 
-const Nome = styled.text`
+const Nome = styled.h1`
     font-family: 'Roboto Flex';
     font-size: 50px;
     font-weight: 700;
@@ -71,7 +71,7 @@ const Nome = styled.text`
     left: 757px;
     `
 
-    const DesscricaoSobreMim = styled.text`
+    const DesscricaoSobreMim = styled.h1`
     font-family: 'Roboto Flex';
     font-size: 16px;
     font-weight: 700;
@@ -99,7 +99,7 @@ const PaginaSobre = () => {
                 um programador com uma visão mais ampla, tanto na linha de tecnologia quanto de negócios.
             </DesscricaoSobreMim>
             <TituloHabilidades>Habilidades</TituloHabilidades>
-            <ListSkills>teste</ListSkills>
+            <ListSkills/>
             
         </>
     )

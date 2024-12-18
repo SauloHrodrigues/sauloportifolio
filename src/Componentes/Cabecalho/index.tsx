@@ -4,6 +4,7 @@ import github from "../../assets/Icones/github.png";
 import email from "../../assets/Icones/email.png";
 import logoDb from "../../assets/LogoDb.png";
 import BotaoMenu from "../BotaoCabecalho,";
+import Curriculo from "../../assets/Curriculo.pdf";
 
 const CabecalhoFormat = styled.section`
     width: 100%;
@@ -14,15 +15,22 @@ const CabecalhoFormat = styled.section`
 const MenuMaisLogo = styled.div`
     width: 475px;
     height: 60px;
+    align-items: center;
     display: flex;
     position: fixed;
     top: 20px; 
     left: 37px;
     gap: 32px    
+    
 `
-const LogoDb = styled.img`
-  width: 87px;
-  height: 60px;   
+
+const LogoDbImage = styled.img`
+    width: 87px;
+    height:80px; 
+`
+
+const LinkLogoDb = styled.a`
+
 `
 
 const MenuSection = styled.section`
@@ -56,13 +64,16 @@ const Cabecalho = () => {
         <>
         <CabecalhoFormat>
             <MenuMaisLogo>
-                    <a href="https://db.tec.br/" target="_blank" rel="noopener noreferrer">
-                    <LogoDb src={logoDb} alt="Logo DB"/> </a>
+                
+                    <LinkLogoDb href="https://db.tec.br/" target="_blank" rel="noopener noreferrer">
+                    <LogoDbImage src={logoDb} alt="Logo DB"/> </LinkLogoDb>
+                
+                    
              
                 <MenuSection>
-                    <BotaoMenu largura="81px" endereco="/" texto="Sobre" /> 
-                    <BotaoMenu largura="108px" endereco="/" texto="Currículo" />
-                    <BotaoMenu largura="103px" endereco="/" texto="Projetos" /> 
+                    <BotaoMenu largura="81px" endereco="/" texto="Sobre" novaAba=""/> 
+                    <BotaoMenu largura="108px" endereco={Curriculo} texto="Currículo" novaAba="_blank" />
+                    <BotaoMenu largura="103px" endereco="/projetos" texto="Projetos" novaAba=""/> 
                 </MenuSection>
             </MenuMaisLogo>
             

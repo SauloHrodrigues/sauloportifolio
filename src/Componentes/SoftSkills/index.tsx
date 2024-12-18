@@ -55,15 +55,18 @@ interface CircleProps {
 `;
 
 const skills = [
+  { name: 'ALGORITIMOS', level: 4 },
   { name: 'JAVA', level: 4 },
   { name: 'SPRING BOOT', level: 3 },
+  { name: 'APIs REST', level: 3 },
   { name: 'TESTES UNITÁRIOS', level: 3 },
-  { name: 'SQL', level: 3 },
+  { name: 'SELENIUM', level: 2 },
+  { name: 'SQL', level: 2 },
   { name: 'HTML', level: 4 },
   { name: 'CSS', level: 4 },
-  { name: 'JAVA SCRIPT', level: 3 },
-  { name: 'TYPE SCRIPT', level: 3 },
+  { name: 'JAVA / TYPE SCRIPT', level: 3 },
   { name: 'REACT', level: 3 },
+  { name: 'GIT & GITHUB', level: 3 },
 
 ];
  

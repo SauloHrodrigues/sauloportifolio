@@ -71,16 +71,17 @@ const Nome = styled.h1`
     left: 757px;
     `
 
-    const DesscricaoSobreMim = styled.h1`
+    const DesscricaoSobreMim = styled.text`
     font-family: 'Roboto Flex';
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 700;
     color: #292929;
-    width: 360px;
+    width: 500px;
     height: 181px;
     position: fixed;
     top: 570px; 
     left: 121px;
+   
     `
     
 const PaginaSobre = () => {
@@ -92,11 +93,10 @@ const PaginaSobre = () => {
             <DercricaoProfissional>Sou treinee de desenvolvimento de software na DBServer.</DercricaoProfissional>
             <TituloSobreMim>Sobre mim</TituloSobreMim>
             <DesscricaoSobreMim>                
-                Sou formado técnico em processamento de dados. Cursei a faculdade de direito e advoguei por cinco anos.
-                Em 2022, infeliz na advocacia, decidi migrar (retornar) para a área de programação, minha paixão. Programar
-                é onde eu me encontro. Meu objetivo é ser fullSteck. Meu projeto para 2025 é começar 
-                nova graduação em engennharia da computação, não para sair da programação, mas busco tornar-me
-                um programador com uma visão mais ampla, tanto na linha de tecnologia quanto de negócios.
+                Sou formado técnico em processamento de dados. Posteriormente, cursei a faculdade de direito e advoguei por cinco anos.
+                Ao trabalhar como advogado, tive a percepção de que minha real paixão é ser programador, pois sinto-me mais afinado com a área.
+                Em 2022, decidi transitar (retornar) para a área de programação. A princípio, meu interesse era ser programador Back em Java. No entanto, ao ser selecionado para participar do programa de inclusão da DB, fui levado a aprender novas stecks, dentre as quais, as de FrontEnd, que me empolgam bastante. Desde então, tenho as estudado. Embora, ainda pricipiante, me sinto motivado a desbravar o universo Full Steck.
+                Nessa tônica, estou me propondo um novo projeto para 2025, nova graduação em Engennharia da Computação, não para sair da programação, mas ampliar meus conhecimentos em TI, tornar-me um programador com uma visão mais ampla, tanto na linha de tecnologia quanto de negócios.
             </DesscricaoSobreMim>
             <TituloHabilidades>Habilidades</TituloHabilidades>
             <ListSkills/>

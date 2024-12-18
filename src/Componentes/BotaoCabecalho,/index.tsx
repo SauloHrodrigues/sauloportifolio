@@ -1,10 +1,5 @@
 import styled from "styled-components";
 
-interface ButtonProps {
-    texto: string;
-    largura: string;
-    endereco: string;
-  }
   
   const Botao = styled.button`
     background-color: transparent;
@@ -21,11 +16,18 @@ interface ButtonProps {
     color: #201F53;
     text-decoration: none;
   `
+
+  interface ButtonProps {
+    texto: string;
+    largura: string;
+    endereco: string;
+    novaAba: string;
+  }
   
-  const BotaoMenu: React.FC<ButtonProps> = ({ largura, texto, endereco }) => {
+  const BotaoMenu: React.FC<ButtonProps> = ({ largura, texto, endereco, novaAba }) => {
     return (
         <Botao style={{width: largura}} >
-            <LinksMenu href={endereco} target="_blank" rel="noopener noreferrer">
+            <LinksMenu href={endereco} target={novaAba} rel="noopener noreferrer">
                 {texto}
             </LinksMenu>
         </Botao>

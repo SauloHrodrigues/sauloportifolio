@@ -6,6 +6,7 @@ import styled from "styled-components";
         height: 44px;
         border-radius: 8px;
         padding: 8px 16px;
+        margin-bottom: 24px;
         gap: 10px;
         background-color: #201F53;
         color: white;

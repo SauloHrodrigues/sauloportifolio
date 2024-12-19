@@ -21,6 +21,7 @@ const Nome = styled.h1`
     color: #292929;
     width: 364px;
     height: 94px;
+    white-space: nowrap;
     position: fixed;
     top: 206px; 
     left: 124px;
@@ -41,6 +42,8 @@ const Nome = styled.h1`
     const Foto = styled.img`
     width: auto;
     height: 292px;
+    border-radius: 50%;
+    object-fit: cover;
     position: fixed;
     top: 157px; 
     left: 757px;
@@ -88,9 +91,9 @@ const PaginaSobre = () => {
     return (
         <> 
             <SaldacaoInicial>Olá, meu nome é </SaldacaoInicial>
-            <Nome>Saulo Henrique</Nome>
+            <Nome>Saulo Henrique Rodrigues</Nome>
             <Foto src={FotoSaulo}/>
-            <DercricaoProfissional>Sou treinee de desenvolvimento de software na DBServer.</DercricaoProfissional>
+            <DercricaoProfissional>Sou desenvolvedor de software na DBServer.</DercricaoProfissional>
             <TituloSobreMim>Sobre mim</TituloSobreMim>
             <DesscricaoSobreMim>                
                 Sou formado técnico em processamento de dados. Posteriormente, cursei a faculdade de direito e advoguei por cinco anos.

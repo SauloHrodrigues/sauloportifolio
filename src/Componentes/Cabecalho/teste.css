@@ -29,6 +29,11 @@
     border-top-right-radius: 8px;
     border-radius: 8px;
     clear: both;
-
-
+    padding-right: 16px;
+    padding-bottom: 24px ;
+    padding-left: 16px ;
+    border-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    word-wrap: inherit;
 }

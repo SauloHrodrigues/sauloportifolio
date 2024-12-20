@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {breakpoints} from "../Tamanhos/Breakpoint/breakpoint"
 
   
   const Botao = styled.button`

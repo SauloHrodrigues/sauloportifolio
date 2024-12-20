@@ -1,16 +1,33 @@
 import styled from 'styled-components';
-
+import breakpoints from '../../Styles/Breakpoint/breakpoint';
 
 const Container = styled.div`
-   width: 300px;
-   height: auto;
-   position: fixed;
-   top: 558px; 
-   left: 757px;
-   padding-top: 15px;
-  `;
+   padding: 0 100px;
+  width: 300px;
+  margin-top: 45px;
+  margin-right: 116px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-  const SkillList = styled.ul`
+  @media ${breakpoints.bg} {
+    width: 100%;
+    padding: 0 20px;
+  }`;
+
+const Titulo = styled.h2`
+  font-family: 'TTSupermolot-Bold';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #292929;
+  margin-top: 16px;
+  text-align: center;
+`;
+const SkillList = styled.ul`
   list-style: circle;
   padding: 0;
   margin: 0;
@@ -18,33 +35,40 @@ const Container = styled.div`
 `;
 
 const SkillItem = styled.li`
-  display: flex;
-  align-items: left;
-  margin-bottom: 5px;
-  justify-content: left;
-  
-`;
+display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: center;
+
+  @media ${breakpoints.bg} {
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }`;
 
 const SkillName = styled.span`
-  width: 170px;
+  width: 100px;
   font-family: "Roboto Flex", sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 19px;
   text-align: left;
-  margin-right: 10px;  
-`;
+  margin-right: 15px;
+
+  @media ${breakpoints.bg} {
+    text-align: center;
+  }`;
 
 const CirclesContainer = styled.div`
   display: flex;
-`;
 
-interface CircleProps {  
-   filled: boolean; 
-  }
+  @media ${breakpoints.bg} {
+    justify-content: center;
+    margin-bottom: 23px;
+  }`;
 
-  
-  const Circle = styled.div.withConfig({   shouldForwardProp: (prop) => prop !== 'filled'})<CircleProps>`
+
+const Circle = styled.div.withConfig({ shouldForwardProp: (prop) => prop !== 'filled' }) <CircleProps>`
   width: 12px;
   height: 12px;
   margin-left: 5px;
@@ -69,12 +93,13 @@ const skills = [
   { name: 'GIT & GITHUB', level: 3 },
 
 ];
- 
+
 
 const ListSkills = () => {
   return (
     <Container>
-        <SkillList>
+      <Titulo>Habilidades</Titulo>
+      <SkillList>
         {skills.map((skill) => (
           <SkillItem key={skill.name}>
             <SkillName>{skill.name}</SkillName>

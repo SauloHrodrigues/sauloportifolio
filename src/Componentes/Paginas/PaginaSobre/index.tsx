@@ -83,19 +83,6 @@ const DercricaoProfissional = styled.h2`
   }
 `;
 
-const SectionTitle = styled.h3`
-  font-family: 'TTSupermolot-Bold';
-  font-size: 36px;
-  font-weight: 400;
-  color: #292929;
-  margin-left: 121px;
-  margin-top: 36px;
-
-  @media ${breakpoints.bg} {
-    margin-left: 0;
-    text-align: center;
-  }
-`;
 
 const DesscricaoSobreMim = styled.p`
   font-family: "Roboto Flex", sans-serif;

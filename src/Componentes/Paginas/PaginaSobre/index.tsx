@@ -21,6 +21,7 @@ const SideSection = styled.div`
   display: flex;
   flex: 1;
   flex-direction: column;
+  
   @media ${breakpoints.bg} {
     justify-content: center;
     align-items: center;
@@ -41,7 +42,7 @@ const MainSection = styled.div`
 
 const Nome = styled.h1`
   font-family: "Roboto Flex", sans-serif;
-  font-size: 80px;
+  font-size: 62px;
   font-weight: 700;
   color: #292929;
   margin-left: 124px;
@@ -101,8 +102,9 @@ const DesscricaoSobreMim = styled.p`
 `;
 
 const Image = styled.img`
-  width: 500px;
-  height: 500px;
+  width: 300px;
+  height: auto;
+  object-fit: cover;
   border-radius: 50%;
   margin-left: 116px;
   margin-right: 116px;

@@ -28,6 +28,10 @@ const ImagemDiv = styled.div`
         background-size: cover;
         border-radius: 8px 8px 0 0;
     `
+    const TituloDiv = styled.div`
+        width: auto;
+        height: 85px;
+    `
 
 const TituloCard = styled.h3`
         font-family: 'TTSupermolot-Bold';
@@ -74,7 +78,9 @@ const Card: React.FC<CardsProps> = ({ imagem, titulo, tecnologias, descricao,
     return (
         <CardContainer >
             <ImagemDiv style={{ backgroundImage: `url(${imagem})` }} />
+            <TituloDiv>
             <TituloCard>{titulo}</TituloCard>
+            </TituloDiv>
             <TecnologiaUsadaCard>{tecnologias}</TecnologiaUsadaCard>
 
             <DescritivoCard>

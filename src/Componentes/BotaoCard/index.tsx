@@ -3,15 +3,20 @@ import {breakpoints} from "../Tamanhos/Breakpoint/breakpoint"
 
   
   const Botao = styled.button`
-        width: 274px;
-        height: 44px;
-        border-radius: 8px;
-        padding: 8px 16px;
-        margin-bottom: 24px;
-        gap: 10px;
-        background-color: #201F53;
-        color: white;
-  `
+    width: 100%;
+    padding: 12px;
+    background-color: #201f53ff;
+    color: #ffffff;
+    font-family: 'TTSupermolot-Bold';
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #1d1b4fff;
+    }
+  `;
   const LinksMenu = styled.a`
     text-decoration: none;
   `

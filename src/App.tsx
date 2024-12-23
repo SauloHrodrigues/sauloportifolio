@@ -2,6 +2,7 @@ import EstiloGlobal from './Componentes/EstiloGlobal';
 import Cabecalho from './Componentes/Cabecalho';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Sobre from './Componentes/Paginas/PaginaSobre';
+import Projetos from './Componentes/Paginas/Projetos';
 
 
 
@@ -20,6 +21,11 @@ function App() {
               </>
             }/>
 
+<Route path="/projetos" element={
+              <>
+                <Projetos/>
+              </>
+            }/>
             </Routes>
         </Router>
       </>  

@@ -12,8 +12,6 @@ const ContainerCabecalho = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 87px;
-  border: solid 1px red;
 `;
 
 const Navbar = styled.div`

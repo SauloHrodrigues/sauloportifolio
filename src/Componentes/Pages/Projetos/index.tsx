@@ -48,7 +48,7 @@ const ContainerDeCads = styled.div`
 `;
 
  
-const PaginaProjetos = () => {
+const Projetos = () => {
     return (
     <Container>
         
@@ -85,4 +85,4 @@ const PaginaProjetos = () => {
     </Container>
     )
 };
-export default PaginaProjetos;
+export default Projetos;

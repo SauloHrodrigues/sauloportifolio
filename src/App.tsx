@@ -21,7 +21,7 @@ function App() {
               </>
             }/>
 
-<Route path="/projetos" element={
+            <Route path="/projetos" element={
               <>
                 <Projetos/>
               </>

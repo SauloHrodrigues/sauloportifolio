@@ -122,7 +122,7 @@ const PaginaSobre = () => {
             <SideSection>
             <SaldacaoInicial>Olá, meu nome é </SaldacaoInicial>
             <Nome>Saulo Henrique Rodrigues</Nome>
-            <DercricaoProfissional>Sou desenvolvedor full-stac.</DercricaoProfissional>
+            <DercricaoProfissional>Sou desenvolvedor full stack.</DercricaoProfissional>
             <DesscricaoSobreMim>                
                 Sou formado técnico em processamento de dados. Posteriormente, cursei a faculdade de direito e advoguei por cinco anos.
                 Ao trabalhar como advogado, tive a percepção de que minha real paixão é ser programador, pois sinto-me mais afinado com a área.

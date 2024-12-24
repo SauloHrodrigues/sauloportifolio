@@ -67,8 +67,11 @@ const CirclesContainer = styled.div`
     margin-bottom: 23px;
   }`;
 
+  interface CicleProps {
+     filled:boolean;
+}
 
-const Circle = styled.div.withConfig({ shouldForwardProp: (prop) => prop !== 'filled' }) <CircleProps>`
+const Circle = styled.div<CicleProps>`
   width: 12px;
   height: 12px;
   margin-left: 5px;

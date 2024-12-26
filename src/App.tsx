@@ -16,16 +16,10 @@ function App() {
           <Cabecalho/>
           <Routes>
             <Route path="/" element={
-              <>
                 <Sobre/>
-              </>
             }/>
 
-            <Route path="/projetos" element={
-              <>
-                <Projetos/>
-              </>
-            }/>
+            <Route path="/projetos" element={<Projetos/>}/>
             </Routes>
         </Router>
       </>  

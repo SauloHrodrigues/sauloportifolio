@@ -14,15 +14,7 @@ const Container = styled.div`
     width: 100%;
     padding: 0 20px;
   }`;
-
-const Titulo = styled.h2`
-  font-family: 'TTSupermolot-Bold';
-  font-size: 36px;
-  font-weight: 400;
-  color: #292929;
-  margin-left: 121px;
-  border: solid 2px red;
-`;
+  
 const SkillList = styled.ul`
   list-style: circle;
   padding: 0;

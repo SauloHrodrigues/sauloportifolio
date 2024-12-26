@@ -25,8 +25,9 @@ const SkillList = styled.ul`
 const SkillItem = styled.li`
 display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   justify-content: center;
+  
 
   @media ${breakpoints.bg} {
     flex-direction: row;
@@ -35,13 +36,15 @@ display: flex;
   }`;
 
 const SkillName = styled.span`
-  width: 100px;
+  width: 100%;
   font-family: "Roboto Flex", sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 19px;
   text-align: left;
   margin-right: 15px;
+  
+  
 
   @media ${breakpoints.bg} {
     text-align: center;
@@ -49,6 +52,7 @@ const SkillName = styled.span`
 
 const CirclesContainer = styled.div`
   display: flex;
+  gap: 10px;
 
   @media ${breakpoints.bg} {
     justify-content: center;

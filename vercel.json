@@ -1,4 +1,29 @@
-{"routes": [
-    { "src": "/projetos", "dest": "/" }
-  ]
-  }
+{
+    "routes": [
+        {
+            "src": "/projetos",
+            "dest": "/"
+        }
+    ],
+    "headers": [
+        {
+            "source": "/Fontes/roboto-ttf/(.*)",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "max-age=31536000, immutable"
+                }
+            ]
+        },
+
+        {
+            "source": "/Fontes/supermolot-ttf/(.*)",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "max-age=31536000, immutable"
+                }
+            ]
+        }
+    ]
+}

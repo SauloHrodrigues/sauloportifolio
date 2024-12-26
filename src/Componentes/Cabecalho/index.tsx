@@ -90,7 +90,7 @@ const Cabecalho = () => {
                     
             <MenuSection>
                 <BotaoMenu largura="81px" endereco="/" texto="Sobre" novaAba=""/> 
-                <BotaoMenu largura="108px" endereco={Curriculo} texto="Currículo" novaAba="_blank" />
+                <BotaoMenu largura="108px" endereco={Curriculo} texto="Currículo" novaAba="" />
                 <BotaoMenu largura="103px" endereco="/projetos" texto="Projetos" novaAba=""/> 
             </MenuSection>
         </NavGroup> 

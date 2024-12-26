@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import breakpoints from '../../Styles/Breakpoint/breakpoint';
 
 const Container = styled.div`
-   padding: 0 100px;
+  padding: 0 100px;
   width: 300px;
   margin-top: 45px;
   margin-right: 116px;
@@ -14,7 +14,7 @@ const Container = styled.div`
     width: 100%;
     padding: 0 20px;
   }`;
-  
+
 const SkillList = styled.ul`
   list-style: circle;
   padding: 0;

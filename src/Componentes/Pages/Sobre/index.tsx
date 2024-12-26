@@ -7,7 +7,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: row;
   margin-top: 50px;
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
 
   @media ${breakpoints.bg} {
@@ -21,7 +21,7 @@ const SideSection = styled.div`
   display: flex;
   flex: 1;
   flex-direction: column;
-  
+; 
   @media ${breakpoints.bg} {
     justify-content: center;
     align-items: center;
@@ -99,7 +99,7 @@ const DesscricaoSobreMim = styled.p`
   letter-spacing: 1.6px;
   font-weight: 300;
   color: #292929;
-  width: 360px;
+  width: 80%;
   line-height: 25px;
   margin-left: 121px;
 
@@ -134,7 +134,7 @@ const SubTitle = styled.h3`
 
   const DivSubTitle = styled.div`
    width: 100%;
-    height: 100px;  
+    height: auto;  
   `;
   
 
@@ -153,13 +153,15 @@ const PaginaSobre = () => {
             <DesscricaoSobreMim>                
                 Sou formado técnico em processamento de dados. Posteriormente, cursei a faculdade de direito e advoguei por cinco anos.
                 Ao trabalhar como advogado, tive a percepção de que minha real paixão é ser programador, pois sinto-me mais afinado com
-                a área.<br/>
-                Em 2022, decidi transitar (retornar) para a área de programação. A princípio, meu
-                interesse era ser programador Back em Java. No entanto, ao ser selecionado para 
-                participar do programa de inclusão da DB, fui levado a aprender novas stecks, 
-                dentre as quais, as de FrontEnd, que me empolgam bastante.<br/> Desde então, tenho as estudado. 
-                Embora, ainda pricipiante, me sinto motivado a desbravar o universo Full Stack.
-                Nessa tônica, estou me propondo um novo projeto para 2025, nova graduação em Engennharia da 
+                a área.Em 2022, decidi transitar (retornar) para a área de programação.
+                <br/><br/>
+                A princípio, meu interesse era ser programador Backend em Java. No entanto, ao ser selecionado para 
+                participar do programa de inclusão da DB, fui levado a aprender novas stacks, 
+                dentre as quais, as de FrontEnd, que me empolgam bastante.
+                <br/><br/>
+                Desde então, tenho as estudado. 
+                Embora, ainda principiante, me sinto motivado a desbravar o universo Full Stack.
+                Nessa tônica, estou me propondo um novo projeto para 2025, nova graduação em Engenharia da 
                 Computação, não para sair da programação, mas ampliar meus conhecimentos em TI, tornar-me um 
                 programador com uma visão mais ampla, tanto na linha de tecnologia quanto de negócios.
             </DesscricaoSobreMim>

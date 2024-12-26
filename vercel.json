@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+      {
+        "source": "/projetos",
+        "destination": "/projetos"
+      }
+    ]
+  }

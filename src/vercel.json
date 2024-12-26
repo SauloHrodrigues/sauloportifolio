@@ -1,7 +1,13 @@
-
 {
-    "routes": [
-      { "src": "/", "dest": "/" },
-      { "src": "/projetos", "dest": "/" }
-    ]
-  }
+  "redirects": [
+    {
+      "source": "/projetos",
+      "destination": "/projetos", 
+      "statusCode": 308
+    }
+  ],
+  "rewrites": [],
+  "headers": [],
+  "cleanUrls": true,
+  "trailingSlash": false
+}

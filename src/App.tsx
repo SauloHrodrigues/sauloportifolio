@@ -2,9 +2,7 @@ import EstiloGlobal from './Componentes/EstiloGlobal';
 import Cabecalho from './Componentes/Cabecalho';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Sobre from './Componentes/Pages/Sobre';
-import Projetos from './Componentes/Pages/Projetos';
-
-
+import Projetos from './Componentes/Projetos';
 
 function App() {
   
@@ -15,9 +13,7 @@ function App() {
         <Router>
           <Cabecalho/>
           <Routes>
-            <Route path="/" element={
-                <Sobre/>
-            }/>
+            <Route path="/" element={<Sobre/>}/>
 
             <Route path="/projetos" element={<Projetos/>}/>
             </Routes>

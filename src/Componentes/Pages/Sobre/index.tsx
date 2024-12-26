@@ -28,9 +28,15 @@ const SideSection = styled.div`
   }
 `;
 
+const HeadColuna =  styled.div`
+  width: 100%;
+  height: 380px;
+  padding-top: 50px;
+  
+`;
+
 const MainSection = styled.div`
-  display: flex;
-  padding-top: 45px;
+  display: flex;  
   flex-direction: column;
   align-items: flex-end;
   position: relative;
@@ -61,7 +67,7 @@ const SaldacaoInicial = styled.h2`
   font-weight: 400;
   color: #292929;
   margin-left: 124px;
-  margin-top: 53px;
+  
 
   @media ${breakpoints.bg} {
     margin-left: 0;
@@ -94,7 +100,7 @@ const DesscricaoSobreMim = styled.p`
   font-weight: 300;
   color: #292929;
   width: 360px;
-  line-height: 19px;
+  line-height: 25px;
   margin-left: 121px;
 
   @media ${breakpoints.bg} {
@@ -110,21 +116,40 @@ const Image = styled.img`
   border-radius: 50%;
   margin-left: 116px;
   margin-right: 116px;
-  
 
   @media ${breakpoints.bg} {
     width: 100%;
     height: auto;
   }
 `;
-    
+
+const SubTitle = styled.h3`
+  font-family: 'TTSupermolot-Bold';
+  font-size: 36px;
+  font-weight: 400;
+  color: #292929;
+  margin-left: 121px;
+
+  `;
+
+  const DivSubTitle = styled.div`
+   width: 100%;
+    height: 100px;  
+  `;
+  
+
 const PaginaSobre = () => {
     return (
         <Container> 
             <SideSection>
-            <SaldacaoInicial>Olá, meu nome é </SaldacaoInicial>
-            <Nome>Saulo Henrique Rodrigues</Nome>
-            <DercricaoProfissional>Sou desenvolvedor full stack.</DercricaoProfissional>
+              <HeadColuna>
+                  <SaldacaoInicial>Olá, meu nome é </SaldacaoInicial>
+                  <Nome>Saulo Henrique Rodrigues</Nome>
+                  <DercricaoProfissional>Sou desenvolvedor full stack.</DercricaoProfissional>
+              </HeadColuna>
+              <DivSubTitle>
+                  <SubTitle>Sobre Mim</SubTitle>
+              </DivSubTitle>
             <DesscricaoSobreMim>                
                 Sou formado técnico em processamento de dados. Posteriormente, cursei a faculdade de direito e advoguei por cinco anos.
                 Ao trabalhar como advogado, tive a percepção de que minha real paixão é ser programador, pois sinto-me mais afinado com
@@ -140,10 +165,15 @@ const PaginaSobre = () => {
             </DesscricaoSobreMim>
 
             </SideSection>
-
+              
             <MainSection>
-                <Image src={FotoSaulo}/>
-           
+                <HeadColuna>
+                  <Image src={FotoSaulo}/>
+                </HeadColuna>
+                <DivSubTitle>
+                  <SubTitle>Habilidades</SubTitle>
+                </DivSubTitle>
+                
             <ListSkills/>
             </MainSection>
         </Container>

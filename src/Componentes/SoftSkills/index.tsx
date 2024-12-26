@@ -17,15 +17,11 @@ const Container = styled.div`
 
 const Titulo = styled.h2`
   font-family: 'TTSupermolot-Bold';
-  font-style: normal;
-  font-weight: 400;
   font-size: 36px;
-  line-height: 44px;
-  display: flex;
-  align-items: center;
+  font-weight: 400;
   color: #292929;
-  margin-top: 16px;
-  text-align: center;
+  margin-left: 121px;
+  border: solid 2px red;
 `;
 const SkillList = styled.ul`
   list-style: circle;
@@ -101,7 +97,6 @@ const skills = [
 const ListSkills = () => {
   return (
     <Container>
-      <Titulo>Habilidades</Titulo>
       <SkillList>
         {skills.map((skill) => (
           <SkillItem key={skill.name}>

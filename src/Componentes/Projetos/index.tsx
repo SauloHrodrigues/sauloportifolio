@@ -1,9 +1,9 @@
 import styled from "styled-components";
 import Card from "../Cards"; 
 import breakpoints from "../../Styles/Breakpoint/breakpoint";
-import ImgPrevisao from "../../../assets/previsao.jpg"; 
-import ImgSelenium from "../../../assets/selenium.jpg"; 
-import Alunos from "../../../assets/profe_aluno.jpg"; 
+import ImgPrevisao from "../../assets/previsao.jpg"; 
+import ImgSelenium from "../../assets/selenium.jpg"; 
+import Alunos from "../../assets/profe_aluno.jpg"; 
 
 
 const Container = styled.div`

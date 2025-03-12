@@ -4,6 +4,7 @@ import breakpoints from "../../Styles/Breakpoint/breakpoint";
 import ImgPrevisao from "../../assets/previsao.jpg"; 
 import ImgSelenium from "../../assets/selenium.jpg"; 
 import Alunos from "../../assets/profe_aluno.jpg"; 
+import Naruto from "../../assets/Naruto.jpg";
 
 
 const Container = styled.div`
@@ -78,6 +79,14 @@ const Projetos = () => {
             tecnologias= "Java, Spring, Mokito e testes unitários"
             descricao= "O presente projeto foi a resolução de um desafio de backand, que se traduz em um sitema simples de gestão escolar, envolvendo Cursos, alunos e professores."
             acesso= "https://github.com/SauloHrodrigues/Desafio_Crud_Alunos-Cursos-Professor.git"
+          />
+
+<Card
+            imagem={Naruto}
+            titulo="Desafio Naruto"
+            tecnologias= "Java, Spring, Mokito e testes unitários"
+            descricao= "Neste desafio, vamos praticar nossas habilidades em programação orientada a objetos utilizando o anime Naruto como exemplo. Para isso, vamos criar classes em Java que representem os personagens do anime Naruto e utilizá-las para mostrar como herança e interface podem ser usadas para organizar classes relacionadas."
+            acesso= "https://github.com/SauloHrodrigues/Desafio_Naruto.git"
           />
 
        
